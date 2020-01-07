@@ -185,121 +185,121 @@ kata12();
 //
 // Kata 13. Write a function that uses 'slice' to return a string with the last 12 characters from 'bestThing'. Remember to also append the results to the page.let header12 = document.createElement("div");
 let header13 = document.createElement("div");
-header13.textContent =
-"Kata 13";
-document.body.appendChild(header13);
-function kata13() {
-    newArray13 = bestThing;
-    newArray13 = newArray13.slice(69); //https://tinyurl.com/yk3kjnrt
-    newElement = document.createElement("div");
-    newElement.textContent = JSON.stringify(newArray13);
-    document.body.appendChild(newElement);
-    return newArray13;
-}
+    header13.textContent =
+        "Kata 13";
+        document.body.appendChild(header13);
+        function kata13() {
+            newArray13 = bestThing;
+            newArray13 = newArray13.slice(69); //https://tinyurl.com/yk3kjnrt
+            newElement = document.createElement("div");
+            newElement.textContent = JSON.stringify(newArray13);
+            document.body.appendChild(newElement);
+            return newArray13;
+        }
 kata13();
 //
 // Kata 14. Write a function that uses 'slice' to return a string with the characters between the 23rd and 38th position of 'bestThing' (i.e., 'boolean is even'). Remember to also append the results to the page.
 let header14 = document.createElement("div");
-header14.textContent =
-"Kata 14";
-document.body.appendChild(header14);
-function kata14() {
-    newArray14 = bestThing;
-    newArray14 = newArray14.slice(23,38);
-    newElement = document.createElement("div");
-    newElement.textContent = JSON.stringify(newArray14);
-    document.body.appendChild(newElement);
-    return newArray14;
-}
+    header14.textContent =
+        "Kata 14";
+        document.body.appendChild(header14);
+        function kata14() {
+            newArray14 = bestThing;
+            newArray14 = newArray14.slice(23,38);
+            newElement = document.createElement("div");
+            newElement.textContent = JSON.stringify(newArray14);
+            document.body.appendChild(newElement);
+            return newArray14;
+        }
 kata14();
 //
 // Kata 15. Write a function that does the exact same thing as #13 but use the 'substring' method instead of 'slice'. Remember to also append the results to the page.
 let header15 = document.createElement("div");
-header15.textContent =
-"Kata 15";
-document.body.appendChild(header15);
-function kata15() {
-    newArray15 = bestThing;
-    newArray15 = newArray15.substring(69);
-    newElement = document.createElement("div");
-    newElement.textContent = JSON.stringify(newArray15);
-    document.body.appendChild(newElement);
-    return newArray15;
-}
+    header15.textContent =
+        "Kata 15";
+        document.body.appendChild(header15);
+        function kata15() {
+         newArray15 = bestThing;
+            newArray15 = newArray15.substring(69);
+            newElement = document.createElement("div");
+            newElement.textContent = JSON.stringify(newArray15);
+            document.body.appendChild(newElement);
+            return newArray15;
+        }
 kata15();
 //
 // Kata 16. Write a function that does the exact same thing as #14 but use the 'substring' method instead of 'slice'. Remember to also append the results to the page.
 let header16 = document.createElement("div");
-header16.textContent =
-"Kata 16";
-document.body.appendChild(header16);
-function kata16() {
-    newArray16 = bestThing;
-    newArray16 = newArray16.substring(23,38);
-    newElement = document.createElement("div");
-    newElement.textContent = JSON.stringify(newArray16);
-    document.body.appendChild(newElement);
-    return newArray16;
-}
+    header16.textContent =
+        "Kata 16";
+        document.body.appendChild(header16);
+        function kata16() {
+            newArray16 = bestThing;
+            newArray16 = newArray16.substring(23,38);
+            newElement = document.createElement("div");
+            newElement.textContent = JSON.stringify(newArray16);
+            document.body.appendChild(newElement);
+            return newArray16;
+        }
 kata16();
 //
 // Kata 17. Write a function that uses 'pop' to remove the last city from 'lotrCitiesArray' and returns the new array. Remember to also append the results to the page.
 let header17 = document.createElement("div");
-header17.textContent =
-"Kata 17";
-document.body.appendChild(header17);
-function kata17() {
-    newArray17 = lotrCitiesArray;
-    newArray17 = newArray17.pop();
-    newElement = document.createElement("div");
-    newElement.textContent = JSON.stringify(lotrCitiesArray);
-    document.body.appendChild(newElement);
-    return lotrCitiesArray;
-}
+    header17.textContent =
+        "Kata 17";
+        document.body.appendChild(header17);
+        function kata17() {
+            newArray17 = lotrCitiesArray;
+            newArray17 = newArray17.pop();
+            newElement = document.createElement("div");
+            newElement.textContent = JSON.stringify(lotrCitiesArray);
+            document.body.appendChild(newElement);
+            return lotrCitiesArray;
+        }
 kata17();
 //
 //
 let header18 = document.createElement("div");
-header18.textContent =
-"Kata 18";
-document.body.appendChild(header18);
-function kata18() {
-    newArray18 = lotrCitiesArray;
-    newArray18 = newArray18.push("Deadest Marshes");
-    newElement = document.createElement("div");
-    newElement.textContent = JSON.stringify(lotrCitiesArray);
-    document.body.appendChild(newElement);
-    return lotrCitiesArray;
-}
+    header18.textContent =
+        "Kata 18";
+        document.body.appendChild(header18);
+        function kata18() {
+            newArray18 = lotrCitiesArray;
+            newArray18 = newArray18.push("Deadest Marshes");
+            newElement = document.createElement("div");
+            newElement.textContent = JSON.stringify(lotrCitiesArray);
+            document.body.appendChild(newElement);
+            return lotrCitiesArray;
+        }
 kata18();
 //
 //Kata This criterion is linked to a Learning Outcome19. Write a function that uses 'shift' to remove the first city from 'lotrCitiesArray' and returns the new array. Remember to also append the results to the page.
 let header19 = document.createElement("div");
-header19.textContent =
-"Kata 19";
-document.body.appendChild(header19);
-function kata19() {
-    newArray19 = lotrCitiesArray;
-    newArray19 = newArray19.shift();
-    newElement = document.createElement("div");
-    newElement.textContent = JSON.stringify(lotrCitiesArray);
-    document.body.appendChild(newElement);
-    return lotrCitiesArray;
-}
+    header19.textContent =
+        "Kata 19";
+        document.body.appendChild(header19);
+        function kata19() {
+            newArray19 = lotrCitiesArray;
+            newArray19 = newArray19.shift();
+            newElement = document.createElement("div");
+            newElement.textContent = JSON.stringify(lotrCitiesArray);
+            document.body.appendChild(newElement);
+            return lotrCitiesArray;
+        }
 kata19();
 //
 //
 let header20 = document.createElement("div");
-header20.textContent =
-"Kata 20";
-document.body.appendChild(header20);
-function kata20() {
-    newArray20 = lotrCitiesArray;
-    newArray20 = newArray20.unshift("Mordor");
-    newElement = document.createElement("div");
-    newElement.textContent = JSON.stringify(lotrCitiesArray);
-    document.body.appendChild(newElement);
-    return lotrCitiesArray;
-}
+    header20.textContent =
+        "Kata 20";
+        document.body.appendChild(header20);
+        function kata20() {
+            newArray20 = lotrCitiesArray;
+            newArray20 = newArray20.unshift("Mordor");
+            newElement = document.createElement("div");
+            newElement.textContent = JSON.stringify(lotrCitiesArray);
+            document.body.appendChild(newElement);
+            return lotrCitiesArray;
+        }
 kata20();
 //
